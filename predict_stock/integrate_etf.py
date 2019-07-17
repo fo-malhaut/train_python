@@ -2,7 +2,7 @@ import pandas as pd
 
 infile = "data/2327/stock_2327_2017.csv"
 outfile = "code_2327_plus.csv"
-path = "/Users/s.watanabe/Desktop/develop app/predict_stock/data"
+path = "/[path]/predict_stock/data"
 
 df = pd.read_csv(infile, header=0)
 df.columns = ["Date", "Open", "High", "Low", "Close", "Volume",

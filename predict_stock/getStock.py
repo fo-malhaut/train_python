@@ -16,8 +16,7 @@ if len(num) != 4:
     sys.exit()
 
 for year in range(start, end, 1):
-    path = "/Users/s.watanabe/Desktop/develop app/predict_stock/data/%s" \
-      % (num)
+    path = "/[path]/predict_stock/data/%s" % (num)
     if not os.path.isdir(path):
         os.mkdir(path)
 

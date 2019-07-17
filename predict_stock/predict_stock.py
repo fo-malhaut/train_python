@@ -1,7 +1,7 @@
 import pandas as pd
 from sklearn.ensemble import RandomForestClassifier
 
-path = "/Users/s.watanabe/Desktop/develop app/predict_stock/data"
+path = "/[path]/predict_stock/data"
 file = "code_2327_plus.csv"
 filepath = "%s/%s" % (path, file)
 df = pd.read_csv(filepath, header=0)
